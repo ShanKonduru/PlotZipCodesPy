@@ -37,4 +37,4 @@ class PlotMe:
 # Example usage:
 data_path = "uszips.csv"
 plotter = PlotMe(data_path)
-plotter.generate_map("output_map.html", num_samples=10, random_seed=random.randint(1, 300))
+plotter.generate_map("output_map.html", num_samples=10, random_seed=random.randint(1, 50))
