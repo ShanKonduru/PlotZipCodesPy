@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "plotzipcodespy"
+version = "0.1.0"
+description = "This program plots map graphs using the Data set. Free US Zip Code Database: The Provider offers a free version of the US Zip Code Database. This Database is offered free of charge conditional on a link back to https://simplemaps.com/data/us-zips."
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+folium = "^0.16.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.4"
+folium = "^0.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
